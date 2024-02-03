@@ -1,0 +1,675 @@
+#lp_chat {
+  font-size: 0.875rem !important;
+  line-height: 1.2 !important;
+}
+
+.lp_desktop > #lpChat .lp_header,
+.lp_slider_header {
+  background: #ffffff !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b4695",endColorstr="#1775bb",GradientType=1) !important;
+  border-width: 0px 0px 1px 0px;
+  border-color: lightgrey !important;
+  border-style: solid !important;
+  border-radius: 25px 25px 0px 0px;
+  padding-top: 13px !important;
+  height: 60px !important;
+}
+
+.lp_desktop .lp-window-root .lp_chevron-icon.lp_icon-white img {
+  top: 7px !important;
+  left: 1px !important;
+}
+
+.lp_desktop .lp-window-root .lp_close-icon.lp_icon-white img {
+  top: 3px !important;
+  left: 0px !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout, .lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock.lp-json-pollock-single-element {
+  border: 2px solid #d4d4d5 !important;
+  border-collapse: collapse;
+  max-width: 200px;
+  background: #fff;
+}
+
+.lp_mobile .lp-window-root>.lp_minimized .lp_header .lp_header-content-wrapper, .lp_tablet .lp-window-root>.lp_minimized .lp_header .lp_header-content-wrapper, .lp_desktop .lp-window-root>.lp_minimized .lp_header .lp_header-content-wrapper, .lp_mobile .lp-window-root>.lp_maximized .lp_header .lp_header-content-wrapper, .lp_tablet .lp-window-root>.lp_maximized .lp_header .lp_header-content-wrapper, .lp_desktop .lp-window-root>.lp_maximized .lp_header .lp_header-content-wrapper {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  left: 0px;
+  top: 17px;
+  border-radius: 13px 13px 0px 0px;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_chat_line .lp_title_text {
+  color: #525252;
+  font-size: 1em;
+  padding-left: 3px;
+  padding-right: 3px;
+  line-height: 16px;
+  display: block;
+  background-color: #f3f3f3;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lp_visitor .lp_time {
+  text-align: right;
+  display: none;
+}
+
+.lp-window-root div, .lp-window-root button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: inherit;
+  background-color: white !important;
+  background: initial;
+  position: static;
+  position: initial;
+  font-family: inherit;
+  color: inherit;
+  width: auto;
+  height: auto;
+  text-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: initial;
+  line-height: normal;
+  font-size: inherit;
+}
+
+.lp-window-root .lp_dialog_container .lp_buttons_area .lp_cancel_button {
+  background: #3963A9 !important;
+  color: #5e5e5e;
+}
+
+lp-window-root .lp_chat_line_wrapper.lp_agent {
+  direction: ltr;
+  text-align: left;
+  padding: 0px 10px 8px 10px !important;
+  /* padding-bottom: 4px !important; */
+}
+
+.lp-window-root .lp_dialog_container .lp_buttons_area .lp_confirm_button {
+  background-color: #3963A9 !important;
+  margin-left: 10%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_time {
+  text-align: left;
+  position: relative;
+  font-size: 12px !important;
+  font-family: 'Open Sans', sans-serif;
+  color: #6d6e70;
+  top: 0;
+  padding: 3px;
+  padding: 6px 0px 1px 3px !important;
+  margin: 0px 0px 0px 26px;
+}
+
+.lp-window-root .lp_chat_line_wrapper.agent_avatar_display .agent_avatar {
+  display: inline-block;
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 16px;
+  margin: 0 11px 4px 0;
+  position: absolute !important;
+  top: -1px !important;
+  left: 7px !important;
+  -webkit-transition: left 1s ,width 1s, height 0.9s;
+  -moz-transition: left 1s,width 1s, height 0.9s;
+  -o-transition: left 1s,width 1s, height 0.9s;
+  transition: left 1s,width 1s, height 0.5s;
+}
+
+.lp-window-root .chips-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 0 10px;
+  margin-left: 0px !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .agent_avatar {
+  position: absolute;
+  top: 0px;
+}
+
+.lp_desktop .lp-window-root .lp_close-icon {
+  position: relative !important;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden !important;
+  width: 22px !important;
+  min-width: 22px;
+  height: 22px !important;
+  background-color: transparent !important;
+}
+
+.lp_desktop .lp-window-root>.lp_minimized .lp_header .lp_header-content-wrapper button.lp_close, .lp_desktop .lp-window-root>.lp_minimized .lp_header .lp_header-content-wrapper button.lp_maximize {
+  display: inline-block;
+  background-color: transparent !important;
+}
+
+.lp_mobile .lp-window-root>.lp_minimized .lp_header .lp_header-content-wrapper .lp_title, .lp_tablet .lp-window-root>.lp_minimized .lp_header .lp_header-content-wrapper .lp_title, .lp_desktop .lp-window-root>.lp_minimized .lp_header .lp_header-content-wrapper .lp_title, .lp_mobile .lp-window-root>.lp_maximized .lp_header .lp_header-content-wrapper .lp_title, .lp_tablet .lp-window-root>.lp_maximized .lp_header .lp_header-content-wrapper .lp_title, .lp_desktop .lp-window-root>.lp_maximized .lp_header .lp_header-content-wrapper .lp_title {
+  direction: ltr !important;
+  position: relative;
+  left: 38%;
+  top: 25%;
+  padding: 0px 0px 0px 0px !important;
+}
+
+.lp_mobile .lp-window-root > .lp_maximized > .lp_header,
+.lp_tablet .lp-window-root > .lp_maximized > .lp_header,
+.lp_slider_header {
+  background: #ffffff !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b4695",endColorstr="#1775bb",GradientType=1) !important;
+  border-width: 0px 0px 1px 0px;
+  border-color: lightgrey !important;
+  border-style: solid !important;
+  border-radius: 25px 25px 0px 0px;
+  padding-top: 13px !important;
+  height: 60px !important;
+  box-shadow: 0px 0px 16px 3px #d4d4d470 !important;
+}
+
+lp_desktop .lp-window-root .lp_chevron-icon {
+  position: relative !important;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden !important;
+  width: 22px !important;
+  min-width: 22px;
+  height: 22px !important;
+  left: -258px !important;
+}
+
+.lp-window-root
+  .lp_maximized_large
+  .lp_location_center
+  .lp_agent_image_area_wrapper {
+  height: 146px !important;
+}
+
+.lp-window-root .lp_tooltip .lp_title {
+  z-index: 999 !important;
+}
+
+.lp_mobile .lp-window-root > .lp_maximized,
+.lp_tablet .lp-window-root > .lp_maximized,
+.lp_desktop .lp-window-root > .lp_maximized {
+  border: 1px solid #d6d6d6;
+  border-radius: 16px 16px 0 0 !important;
+  box-shadow: 0px 0px 16px 3px #d4d4d470 !important;
+  color: #d31616;
+}
+
+.lp-window-root .lp_maximized_large .lp_logo_top_margin {
+  margin-top: 0px !important;
+}
+
+.lp-window-root .lp_location_center .lp_agent_image_area_wrapper .lp_image {
+  max-width: 320px !important;
+  margin-top: 8px !important;
+  height: auto !important;
+}
+
+.lp-window-root table.lp_centralizer td {
+  text-align: center;
+  vertical-align: middle;
+  background: white;
+}
+
+/* .lp-window-root .lp_dialog_container .lp_buttons_area {
+    position: relative;
+    text-align: center;
+    height: 40px;
+}	 */
+
+.lp-window-root .lp_dialog_container .lp_title {
+  visibility: hidden;
+}
+
+.lp-window-root .lp_dialog_container .lp_title:after {
+  display: block;
+  visibility: visible;
+  padding: 5px 15px 5px 15px;
+  font-size: 1.1em;
+  text-align: center;
+  content: "If you close this window, we will not be able to send you a message.";
+}
+/*
+.lp-window-root .lp_dialog_container .lp_buttons_area .lp_confirm_button {
+    visibility: hidden;
+}
+
+.lp-window-root .lp_dialog_container .lp_buttons_area .lp_confirm_button:after {
+    content: "End Conversation";
+    visibility: visible;
+    background-color: #1B4695;
+    color: #FFFFFF;
+}
+
+.lp-window-root .lp_dialog_container .lp_buttons_area .lp_cancel_button {
+    visibility: hidden;
+}
+
+.lp-window-root .lp_dialog_container .lp_buttons_area .lp_cancel_button:after {
+    content: "Stay Connected";
+    visibility: visible;
+    background-color: #1B4695;
+    color: #FFFFFF;
+}		 */
+
+.lp-window-root .lp_dialog_container .lp_buttons_area button {
+  padding: 9px 6px;
+  width: 45%;
+  float: left;
+  font-size: 1em;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lp-window-root
+  .lp_dialog_container
+  .lp_center_div_wrapper
+  .lp_center_div_inner:after {
+  content: "You can stay connected to your conversation and minimize this window by using the arrow in the blue bar above.";
+  padding: 20px 22px 19px 15px;
+  display: block;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.lp_mobile .lp-window-root > .lp_maximized > .lp_main .lp_buttons_area,
+.lp_tablet .lp-window-root > .lp_maximized > .lp_main .lp_buttons_area {
+  margin-top: 3%;
+  font-size: 1.1em;
+}
+
+.lp_mobile .lp-window-root > .lp_maximized > .lp_main .lp_buttons_area button,
+.lp_tablet .lp-window-root > .lp_maximized > .lp_main .lp_buttons_area button {
+  font-size: 1.1em;
+}
+
+.lp-window-root
+  .lp_dialog_container
+  .lp_center_div_wrapper
+  .lp_center_div_inner
+  .lp_center_div_inner_content {
+  display: inline-block;
+  width: 85%;
+}
+
+.lp_mobile .lp_minimized .lp_header {
+  margin-top: 24px !important;
+}
+
+.lp_mobile .p_maximize-icon {
+  margin-right: 10px !important;
+}
+
+.lp_slider_header {
+  z-index: 999 !important;
+}
+
+.lp_slider_container {
+  margin-top: 24px !important;
+  box-shadow: none !important;
+  padding-right: 0 !important;
+}
+
+.lp_desktop
+  #lpChat
+  > .lp_maximized
+  > .lp_header
+  .lp_header-content-wrapper
+  .lp_header-buttons-container,
+.lp_desktop
+  #lpChat
+  > .lp_minimized
+  .lp_header
+  .lp_header-content-wrapper
+  .lp_header-buttons-container {
+  background: transparent !important;
+  position: absolute;
+  left: 123px;
+  top: 2px;
+}
+
+.lp_minimize,
+.lp_maximize {
+  margin-right: 10px !important;
+  background: transparent !important;
+  /* IE 6/7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+}
+
+div.lp_mobile > #lpChat > div.lp_minimized .lp_slider {
+  height: 508px !important;
+}
+
+button.lp_actions_button,
+.lp_chatting-with-icon,
+.lp_chat_arrow_border,
+.lp_chat_arrow {
+  display: none !important;
+}
+
+.lp_location_bottom {
+  border-top: none !important;
+}
+
+.lp_send-icon {
+  overflow: visible !important;
+}
+
+.LPMimage {
+  left: -125px !important;
+  height: 124px;
+  width: 124px;
+}
+
+.lp_bottom_area {
+  border-top: 1px solid #e5e5e5 !important;
+}
+
+#lpChat .lp_chat_line_wrapper.lp_agent .lp_chat_line {
+  border-radius: 0px 10px 10px 10px !important;
+  background-color: #ffffff !important;
+  border: 2px #eaeaea solid !important;
+}
+
+#lpChat .lp_chat_line_wrapper.lp_visitor .lp_chat_line {
+  border-radius: 10px 10px 0 10px !important;
+  background-color: #f5f5f5 !important;
+  border: 2px #eaeaea solid !important;
+}
+
+#lpChat div [title^="Info"] {
+  display: none;
+}
+
+.lp_desktop > #lpChat .lp_header,
+.lp_slider_header .banner {
+  background-color: #ffffff;
+  padding: 5px;
+  font: inherit;
+  font-size: inherit;
+  border-radius: 16px 16px 0px 0px !important;
+}
+
+.lp_top-text {
+  margin-left: 3px !important;
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #555555 !important;
+  margin-top: -3px !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+
+.lp_mobile .lp_top-text {
+  margin-top: 3px !important;
+}
+
+.lp_title {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.LPMcontainer {
+  margin: 0px 0px 113px 0px !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+#lpChat .lp_input_area {
+  margin-left: -30px !important;
+  width: 107% !important;
+}
+
+textarea.lp_expandable_textarea {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  padding-left: 5px !important;
+  margin-top: -1px !important;
+}
+
+textarea.lp_expandable_textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 1px #1775bb !important;
+}
+
+#lpChat .lp_input_area {
+  padding: 11px 0px 11px 0px !important;
+}
+
+#lpChat .lp_input_area > textarea::placeholder {
+  font-style: normal !important;
+  color: #858585 !important;
+}
+
+.lp-json-pollock-layout {
+  /*           background: #1775BB !important; */
+  background: #e2e2e2 !important;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.lp-json-pollock-element-text {
+  /*           color:white !important; */
+  color: #333333 !important;
+  margin: 5px auto !important;
+}
+
+.lp_desktop .lp_main {
+  top: 60px !important;
+  border-radius: 21px 25px 0px 0px;
+}
+
+.lp_mobile .lp-window-root > .lp_maximized,
+.lp_tablet .lp-window-root > .lp_maximized {
+  z-index: 99999999;
+  opacity: 1 !important;
+  position: fixed;
+}
+
+.lp_mobile .lp_minimized .lp_main {
+  top: 61px !important;
+}
+
+.lp_mobile #lpChat .lp_maximize-icon img {
+  margin-top: -2px !important;
+  margin-left: -5px !important;
+}
+
+.lp_mobile #lp_53_logoMax {
+  margin-top: 0 !important;
+}
+
+.lp_mobile #lp_53_logoMin {
+  margin-top: -2px !important;
+}
+
+div [id^="LP_MinimizedView"] {
+  margin-top: -84px !important;
+}
+
+#lpChat .chips-wrapper .chips-row .chips-item,
+.lp-json-pollock-element-button {
+  color: #1775bb !important;
+  background: white !important;
+  text-align: center !important;
+  font-size: 0.875rem !important;
+  border: 2px solid #eaeaea;
+}
+
+.LPMimage {
+  opacity: 1 !important;
+  transition: opacity 0.5s !important;
+}
+
+.lp_53_fade {
+  opacity: 1 !important;
+}
+
+@media only screen and (min-width: 760px) {
+  .LPMimage {
+    opacity: 1 !important;
+  }
+}
+
+@media print {
+  .LPMcontainer {
+    visibility: hidden;
+  }
+}
+
+.LPMcontainer .tooltip {
+  background: #e2e2e2;
+  bottom: 100%;
+  color: black;
+  display: block;
+  left: -65px;
+  margin-bottom: 15px;
+  opacity: 0;
+  padding: 10px;
+  pointer-events: none;
+  position: absolute;
+  width: 40%;
+  height: 70%;
+  /*    border: 0.1px solid grey;			 */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  transform: translateY(10px);
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  animation: fadein 0.5s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+.LPMcontainer .tooltip:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/* CSS Triangles - see Trevor's post */
+.LPMcontainer .tooltip:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid #e2e2e2 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 99%;
+  margin-left: -33px;
+  position: absolute;
+  width: 2px;
+
+  border-radius: 10px solid black;
+  filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.25));
+  /*  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+     -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+      -ms-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+       -o-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+       box-shadow: 0 2px 1px rgba(0,0,0,.25);			 */
+}
+
+.LPMcontainer .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+  margin-left: -206px;
+  margin-top: -189px;
+  height: auto;
+  width: 200px;
+  margin-bottom: 81px;
+  /* margin-right: 111px; */
+  border: 1 px solid grey;
+  border-radius: 10px;
+}
+
+/* IE can just show/hide with no transition */
+.lte8 .wrapper .tooltip {
+  display: block;
+}
+
+.lte8 .wrapper:hover .tooltip {
+  display: block;
+}
+
+a.boxclose {
+  float: right;
+  margin-top: -30px;
+  margin-right: -15px;
+  cursor: pointer;
+  color: #e2e2e2;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  background: #67b2e8;
+  font-size: 15px;
+  font-weight: 400px;
+  display: inline-block;
+  line-height: 0px;
+  padding: 9px 4px 9px 4px;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  transform: translateY(10px);
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.boxclose:before {
+  content: "×";
+}
